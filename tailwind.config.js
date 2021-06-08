@@ -3,6 +3,19 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend : {
+      screens: {
+        'xsm': '375px',
+        '1xl': '1440px'
+      },
+      colors: {
+        brightOrange: '#e38826',
+        cyan: {
+          100: '#006970',
+          200: '#004241'
+        }
+      }
+    },
   },
   variants: {
     extend: {
