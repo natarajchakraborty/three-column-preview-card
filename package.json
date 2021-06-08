@@ -1,0 +1,15 @@
+{
+  "name": "three-column-preview-card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/natarajchakraborty/three-column-preview-card.git",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}
