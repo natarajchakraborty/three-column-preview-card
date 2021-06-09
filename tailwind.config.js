@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend : {
+      fontFamily: {
+        'body': ['Lexend Deca'],
+        'header': ['Big Shoulders Display']
+      },
       screens: {
         'xsm': '375px',
         '1xl': '1440px'
@@ -13,7 +17,9 @@ module.exports = {
         cyan: {
           100: '#006970',
           200: '#004241'
-        }
+        },
+        transparentWhite: '#ffffff',
+        VeryLghtGray: '#f2f2f2' 
       }
     },
   },

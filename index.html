@@ -4,42 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-200">
-  <div class="flex flex-col justify-center items-center">
-    <div class="flex flex-col justify-center items-center w-10/12 my-24">
-        <div class="flex flex-col bg-brightOrange rounded-t-xl p-10 text-gray-100">
+<body class="bg-VeryLghtGray">
+  <div class="flex flex-col justify-center items-center xl:h-screen  ">
+    <div class="flex flex-col justify-center items-center w-10/12 my-24 xl:w-3/5 xl:flex-row xl:h-3/4 ">
+        <div class="flex flex-col bg-brightOrange rounded-t-xl p-10 text-gray-100 xl:h-3/4 xl:rounded-t-none xl:rounded-tl-xl xl:rounded-bl-xl">
             <img src="images/icon-sedans.svg" alt="Sedans" class="w-16">
-            <h3 class="text-4xl mt-10 uppercase">Sedans</h3>
-            <p class="mt-10 leading-relaxed tracking-wide">
+            <h3 class="text-4xl mt-10 uppercase font-header text-VeryLghtGray">Sedans</h3>
+            <p class="mt-10 leading-relaxed tracking-wide font-body  text-transparentWhite opacity-75  h-1/2">
                 Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
                 or on your next road trip.
             </p>
-            <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-brightOrange border-2 border-transparent hover:bg-brightOrange hover:outline-none hover:ring-white hover:text-white  hover:border-white mt-6 focus:outline-none  focus:border-white w-4/6">Learn More</button>
+            <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-brightOrange border-2 border-transparent hover:bg-brightOrange hover:outline-none hover:ring-white hover:text-VeryLghtGray  hover:border-white mt-8 focus:outline-none  focus:border-white w-4/6">Learn More</button>
         </div>
-        <div class="flex flex-col bg-cyan-100 p-10 text-gray-100">
+        <div class="flex flex-col bg-cyan-100 p-10 text-gray-100 xl:h-3/4  ">
             <img src="images/icon-suvs.svg" alt="SUVs" class="w-16">
-            <h3 class="text-4xl mt-10 uppercase">SUVs</h3>
-            <p class="mt-10 leading-relaxed tracking-wide">
+            <h3 class="text-4xl mt-10 uppercase font-header text-VeryLghtGray">SUVs</h3>
+            <p class="mt-10 leading-relaxed tracking-wide font-body text-transparentWhite opacity-75  h-1/2">
                 Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
                 and off-road adventures.
             </p>
-            <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-cyan-100 border-2 border-transparent hover:bg-cyan-100 hover:outline-none hover:ring-white hover:text-white  hover:border-white mt-6 focus:outline-none  focus:border-white w-4/6">Learn More</button>
+            <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-cyan-100 border-2 border-transparent hover:bg-cyan-100 hover:outline-none hover:ring-white hover:text-VeryLghtGray  hover:border-white mt-8 focus:outline-none  focus:border-white w-4/6">Learn More</button>
         </div>
-        <div class="flex flex-col  bg-cyan-200 rounded-b-2xl p-10 text-gray-100">
+        <div class="flex flex-col  bg-cyan-200 rounded-b-2xl p-10 text-gray-100 xl:h-3/4 xl:rounded-b-none xl:rounded-tr-xl xl:rounded-br-xl ">
           <img src="images/icon-luxury.svg" alt="luxury" class="w-16">
-          <h3 class="text-4xl mt-10 uppercase">Luxury</h3>
-          <p class="mt-10 leading-relaxed tracking-wide">
+          <h3 class="text-4xl mt-10 uppercase font-header text-VeryLghtGray">Luxury</h3>
+          <p class="mt-10 leading-relaxed tracking-wide font-body text-transparentWhite opacity-75 h-1/2">
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
               rental and arrive in style.
           </p>
-          <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-cyan-200 border-2 border-transparent hover:bg-cyan-200 hover:outline-none hover:ring-white hover:text-white  hover:border-white mt-6 focus:outline-none  focus:border-white w-4/6">Learn More</button>
+          <button class="px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded-full leading-snug whitespace-nowrap text-base font-semibold bg-white text-cyan-200 border-2 border-transparent hover:bg-cyan-200 hover:outline-none hover:ring-white hover:text-VeryLghtGray  hover:border-white mt-8 focus:outline-none  focus:border-white w-4/6">Learn More</button>
         </div>
 
     </div>
