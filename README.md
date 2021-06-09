@@ -4,7 +4,15 @@
 
 ## Welcome! 👋
 
+**Live Url to solution:**
+[Solution](https://natarajchakraborty.github.io/three-column-preview-card/index.html)
+
+**Completed URL**
+[Github URL](https://github.com/natarajchakraborty/three-column-preview-card)
+
 Thanks for checking out this front-end coding challenge.
+
+**Original Readme Text from Challannge**
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
