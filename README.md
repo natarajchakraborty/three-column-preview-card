@@ -6,6 +6,9 @@
 
 [Demo Page URL](https://natarajchakraborty.github.io/three-column-preview-card)
 
+[Uses TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
+
+
 ## Design preview! 👋
 
 **Desktop Preview@1440px**
